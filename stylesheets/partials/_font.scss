@@ -1,0 +1,28 @@
+// Font weights
+$regular: 400;
+$bold: 700;
+
+// Fonts variables
+$txt: 'PT Sans';
+$base-font-weight: $regular;
+
+// Font Variables
+$ptsans: 'PT Sans';
+
+// Styles
+body {
+  font-family: $ptsans;
+  font-weight: $regular;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $ptsans;
+  font-weight: $bold;
+}
+
+p {
+  font-family: $ptsans;
+  font-weight: $regular;
+  color: $cyan;
+}
+
+@import "modules/all";
